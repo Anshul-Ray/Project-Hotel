@@ -1,0 +1,13 @@
+.hotelName{
+    font-weight:bolder;
+    font-size:80px;
+    margin-top:11%;
+}
+.tagline{
+    font-size:30px;
+    font-weight:100px;
+    color: darkgray;
+}
+.intro{
+    margin-left: 2%;
+}
