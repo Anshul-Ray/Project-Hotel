@@ -60,7 +60,7 @@ const AllHotels = () => {
                         <TableCell>{hotels.city}</TableCell>
                         <TableCell>₹ {hotels.price}</TableCell>
                         <TableCell>
-                            <Button color="primary" variant="contained" style={{marginRight:10}} component={Link} to={`/admin/edit/${hotels._id}`}>Edit</Button> {/* change it to hotel.id to use JSON Server */}
+                            <Button color="primary" variant="contained" style={{marginRight:10}} component={Link} to={`/admin/signed/edit/${hotels._id}`}>Edit</Button> {/* change it to hotel.id to use JSON Server */}
                             <Button color="secondary" variant="contained" onClick={() => deleteHotelData(hotels._id)}>Delete</Button> {/* change it to hotel.id to use JSON Server */}
                         </TableCell>
                     </TableRow>
