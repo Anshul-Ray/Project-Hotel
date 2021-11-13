@@ -1,2 +1,2 @@
 # Project-Hotel
-Hotel Booking Website with React/Express/MongoDB
+Hotel Booking Website made with MERN stack. 
